@@ -21,7 +21,7 @@ export default async function submit(
     return null;
   } catch (error) {
     if (error instanceof z.ZodError) {
-      return error.formErrors;
+      return { fieldErrors: error.formErrors.fieldErrors };
     }
     return { error: { message: "Something went wrong" } };
   }
