@@ -1,6 +1,14 @@
 {
   "name": "next-form-validation-with-server-action",
   "version": "0.1.0",
+  "keywords": [
+    "next.js",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "form",
+    "validation"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev --port 9070",
@@ -10,7 +18,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3",
-    "next": "13.5.5",
+    "next": "^14",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7",
@@ -19,7 +27,7 @@
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "18.2.11",
+    "@types/react-dom": "^18",
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "13.5.5",

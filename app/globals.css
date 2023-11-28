@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  button {
+    @apply p-2 border border-purple-500 rounded disabled:border-red-500
+  }
+  form {
+    @apply flex flex-col space-y-4 mt-6
+  }
+  label {
+    @apply space-y-2 flex flex-col
+  }
+  input {
+    @apply border rounded p-2
+  }
+  .error-message {
+    @apply text-red-500
+  }
+}

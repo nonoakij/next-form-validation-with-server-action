@@ -16,9 +16,9 @@ export default function Error({
 
   return (
     <div>
-      <h2>Something went wrong!</h2>
+      <h2 className="error-message">{error.message}</h2>
       <button
-        className="p-2 border border-purple-500 rounded"
+        className="mt-4"
         onClick={
           // Attempt to recover by trying to re-render the segment
           () => reset()
