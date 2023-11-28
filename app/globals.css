@@ -4,7 +4,7 @@
 
 @layer components {
   button {
-    @apply p-2 border border-purple-500 rounded disabled:border-red-500
+    @apply p-2 border border-purple-500 rounded disabled:border-red-500 disabled:cursor-not-allowed disabled:animate-pulse disabled:bg-red-500 disabled:text-white
   }
   form {
     @apply flex flex-col space-y-4 mt-6
