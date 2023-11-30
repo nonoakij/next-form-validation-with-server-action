@@ -2,9 +2,8 @@
 
 ## Overview
 
-The following is a summary of Form implementation patterns in Next.js.
-
-This repository use zod as the library for schema validation, but other libraries should be able to implement the same patterns.
+This repository is form design patterns that use server actions to perform Validation of forms.
+The Playground code uses zod as the library for schema validation, but other libraries should be able to implement the same pattern.
 
 ## Getting Started
 
